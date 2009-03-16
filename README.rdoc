@@ -6,6 +6,8 @@ Provides a shoulda macros for validating your rails views.
 
 This macros requires that you have w3c_validators gem installed.
   
+  sudo gem install w3c_validators
+  
   script/plugin install git://github.com/maxim/should_pass_w3c_validation.git
   
 == Usage
