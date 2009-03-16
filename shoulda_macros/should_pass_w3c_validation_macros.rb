@@ -3,7 +3,7 @@ require 'w3c_validators'
 module ShouldPassW3cValidationMacros
   include W3CValidators
   
-  def should_pass_w3c_validation(*urls)
+  def should_pass_w3c_validation
     should "pass w3c validation" do
       tempfile = Tempfile.new('test')
       tempfile.write(@response.body)
